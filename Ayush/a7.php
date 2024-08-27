@@ -61,6 +61,46 @@
     $y=array("u"=>"Yellow","v"=>"Orange","w"=>"Pink");
     $z=$x+$y;
     var_dump($z);
+    echo "<br>";
+?>
+<?php
+    echo 1<=>1;//0
+    echo "<br>";
+    echo 1<=>2;//-1
+    echo "<br>";
+    $a=`date`;
+    echo $a ,"<br>";
+    $s=5;
+    echo abs($s), "<br>";
+    $arr = [12,7,5,25,34];
+    echo max($arr),"<br>";
+    echo min($arr),"<br>";
+    $b=6.534;
+    echo ceil($b),"<br>";
+    echo floor($b),"<br>";
+    $deg = 45;
+    echo "Radians: ",deg2rad($deg),"<br>";//p123456
+    $n=10;
+    $d=3;
+    echo "Integer division result: ",intdiv($n,$d),"<br>";
+    echo "Power = ",pow(2,3),"<br>";
+    echo "Logarithm = ",log(10),"<br>";
+    echo "Degree to radian =",rad2deg(1.5707),"<br>";
+    echo "Squre root value is :",sqrt(5),"<br>";
+    echo "Remainder = ",fmod(10,3),"<br>";
+
+    $num=12;
+    if($num<100);
+    {
+        echo "$num is less than 100 <br>";
+    }
+    $num1=15;
+    if($num1%2!=0):
+       echo "$num1 is an prime number<br>";
+    else:
+        echo "$num1 is not prime number<br>";
+    endif
+    
 ?>
 
 </body>
